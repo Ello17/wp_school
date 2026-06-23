@@ -930,6 +930,10 @@ footer {
     color: #c8d8e4;
     padding: 50px 40px 0;
 }
+.social-link img{
+    height: 20px;
+
+}
 
 .footer-container {
     max-width: 1200px;

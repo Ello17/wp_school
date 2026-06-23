@@ -518,7 +518,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     // Create back to top button
     const backToTopBtn = document.createElement('button');
-    backToTopBtn.innerHTML = '↑';
+    backToTopBtn.innerHTML = '<img src="./assets/arrow_shape_up_stack_2_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Back to Top">';
     backToTopBtn.className = 'back-to-top';
     backToTopBtn.style.cssText = `
         position: fixed;
@@ -537,6 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
         visibility: hidden;
         transition: all 0.3s ease;
         box-shadow: 0 4px 20px rgba(74, 127, 165, 0.4);
+        padding-top: 5px;
     `;
     document.body.appendChild(backToTopBtn);
     
